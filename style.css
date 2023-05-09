@@ -15,8 +15,11 @@
     border-radius: 4px;
 }
 
-
-
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
 
 .header a:hover {
     background-color: #ddd;

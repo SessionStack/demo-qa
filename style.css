@@ -37,7 +37,6 @@ body {
 
 }
 
-
 .content-wrapper {
     display: flex;
     gap: 10px;
@@ -92,7 +91,6 @@ h2 {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 }
 
 ul.a {
@@ -110,10 +108,8 @@ h3 {
 p {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-
-
+    padding: auto;
 }
-
 
 .header img {
     float: left;
@@ -129,8 +125,6 @@ p {
     gap: 5px;
 
 }
-
-
 
 .header a {
     color: rgb(233, 235, 240);
@@ -151,7 +145,6 @@ p {
     gap: 20px;
 
 }
-
 
 .header a:hover {
     background-color: #ddd;
@@ -181,7 +174,6 @@ table {
     width: 100%;
     margin-top: 25px;
 
-
 }
 
 td,
@@ -198,4 +190,16 @@ tr:nth-child(even) {
 
 tr {
     height: 30px !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #010924;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    color: #fff;
 }
